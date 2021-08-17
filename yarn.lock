@@ -1423,10 +1423,10 @@ he@1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-highlight.run@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/highlight.run/-/highlight.run-1.7.5.tgz#562f3cfc7ff31609d684a26f57878afcb43774aa"
-  integrity sha512-Kens7xbGJE/vZ21z+wVcdbdzn6bsFJD+gMh942cG/1ewgdWp5JmGqIiO33aJWyzEcXj0dBE8gQUi6Ql+9jSNUQ==
+highlight.run@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/highlight.run/-/highlight.run-2.5.0.tgz#7c01dc786fcd09580e3aa3c0bf2bf3a1e3c044e5"
+  integrity sha512-glap0axTStf9MvHmuSXNOcFCyiRDB+31jjXub0RfGI0q6Pifh6Elx9HzSi39Z3JFp3cM9CgIPQbY0QJsCRH9mw==
 
 hmac-drbg@^1.0.1:
   version "1.0.1"
