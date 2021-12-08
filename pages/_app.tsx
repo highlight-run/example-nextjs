@@ -1,10 +1,21 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { H } from "highlight.run";
+import { ErrorBoundary } from "@highlight-run/react";
 
-H.init("REPLACE_ME_WITH_YOUR_ORG_ID");
+H.init("REPLACE_ME_WITH_YOUR_PROJECT_ID");
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <ErrorBoundary
+      fallback={
+        <>
+          <h2>TODO: Add your fallback UI here.</h2>
+        </>
+      }
+    >
+      <Component {...pageProps} />
+    </ErrorBoundary>
+  );
 }
 export default MyApp;
