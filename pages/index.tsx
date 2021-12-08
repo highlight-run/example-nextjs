@@ -1,6 +1,7 @@
 import { H } from "highlight.run";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -23,6 +24,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <Link href="errors">
+            <a className={styles.card}>
+              <h2>Errors &rarr;</h2>
+              <p>Demo page with different types of errors.</p>
+            </a>
+          </Link>
           <a
             href="https://nextjs.org/docs"
             className={styles.card}
