@@ -66,6 +66,13 @@ export default function Home() {
             Throw a custom Error
           </button>{" "}
           <button>Throw an Error</button>
+          <button
+            onClick={() => {
+              fetch(`/api/error`);
+            }}
+          >
+            Throw an Error on the backend
+          </button>
         </div>
       </main>
     </div>
