@@ -1,5 +1,10 @@
 ## Setting Up Highlight
 
+Use this example to start your next-js app with highlight recording available for the full stack!
+```sh
+yarn create next-app --example https://github.com/highlight-run/example-nextjs my-next-app
+```
+
 ### Install the dependencies
 
 ```sh
