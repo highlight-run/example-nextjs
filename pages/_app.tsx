@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "@highlight-run/react/dist/highlight.css";
 import type { AppProps } from "next/app";
 import { H } from "highlight.run";
 import { ErrorBoundary } from "@highlight-run/react";
